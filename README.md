@@ -32,28 +32,6 @@ src/
 ├── App.jsx                     ← Root component
 ├── main.jsx                    ← Entry point
 └── index.css                   ← Global design tokens
-```
-
-## ✏️ Personalising
-
-### 1. Add your photo
-Replace the placeholder in `About.jsx`:
-```jsx
-// Find this line:
-<div className="about-img-placeholder">👨‍💻</div>
-
-// Replace with:
-<img src="/src/assets/YOUR_PHOTO.jpg" alt="Rizwan" className="about-img" />
-```
-
-### 2. Update your projects
-Edit the `PROJECTS` array in `Projects.jsx` — add real GitHub links, descriptions, and tech tags.
-
-### 3. Update your social links
-In `Contact.jsx`, update the `href` values for GitHub, LinkedIn, and your email address.
-
-### 4. Update stats
-In `Hero.jsx`, change the numbers in the `.hero-stats` section to reflect your real counts.
 
 ## 🏗️ Build for Production
 
